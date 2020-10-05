@@ -52,7 +52,7 @@ body {
   background-color: #fff;
 }
 .padd {
-  padding: 120px 30px 100px;
+  padding: 120px 15px 100px;
 }
 .content {
   max-width: 600px;
@@ -228,4 +228,28 @@ width: 40px;
 color: #000;
 fill: tomato;
 margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .cards__elem {
+    width: 49%;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main__title {
+    font-size: 44px;
+  }
+  .title {
+    font-size: 28px;
+    max-width: 200px;
+  }
+  .
+  .cards__content {
+    flex-direction: column;
+  }
+  .cards__elem {
+    width: 100%;
+  }
 }
